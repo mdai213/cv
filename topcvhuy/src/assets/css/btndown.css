@@ -1,0 +1,20 @@
+.center-button {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px; /* Có thể điều chỉnh margin theo nhu cầu */
+}
+
+/* Style nút tải xuống PDF */
+.center-button button {
+  padding: 10px 20px;
+  background-color: #007bff; /* Màu nền */
+  color: #fff; /* Màu chữ */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.center-button button:hover {
+  background-color: #0056b3; /* Màu nền khi hover */
+}
